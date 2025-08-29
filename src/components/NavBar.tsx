@@ -129,7 +129,6 @@ const NavBar: React.FC = () => {
               )}
             </CustomNavLink>
           ))}
-          <LanguageSwitch />
         </nav>
       )}
       {isMobileMenuActive && (
@@ -163,7 +162,6 @@ const NavBar: React.FC = () => {
               )}
             </CustomNavLink>
           ))}
-          <LanguageSwitch />
         </nav>
       )}
     </React.Fragment>

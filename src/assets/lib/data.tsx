@@ -26,12 +26,18 @@ import webflowicon from "../../assets/icons/webflowicon.svg";
 import tastyMockup from "../../assets/img/tasty_mockup.webp";
 import instorMockup from "../../assets/img/instor_mockup.webp";
 import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
-import profilepicture from "../img/me2.webp";
+import profilepicture from "../img/me3.jpg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
 import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
 import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
+import csharp from "../../assets/icons/csharp.png";
+import docker from "../../assets/icons/docker.png";
+import dotnet from "../../assets/icons/dotnet.png";
+import mysql from "../../assets/icons/mysql-blue.png";
+import php from "../../assets/icons/php.png";
+import python from "../../assets/icons/Python.png";
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
 import { FiGithub, FiLink, FiLinkedin, FiMail } from "react-icons/fi";
 import Imprint from "../../components/Imprint";
@@ -39,13 +45,13 @@ import Privacy from "../../components/Privacy";
 
 export const headerIntroData = {
   title: {
-    de: "Hi, ich bin Alpay",
-    en: "Hi, I'm Alpay",
+    de: "Hi, ich bin Mark",
+    en: "Hi, I'm Mark",
   },
-  subtitle: "Fullstack Developer ",
+  subtitle: "Senior Fullstack Developer ",
   description: {
-    de: "Ich bin Alpay, ein Fullstack-Entwickler mit dem Ziel, meine Karriere voranzutreiben und an inspirierenden Projekten teilzunehmen. Hier präsentiere ich meine Arbeiten und meine Leidenschaft für die Webentwicklung. Lassen Sie uns gemeinsam digitale Lösungen gestalten und die Zukunft formen!",
-    en: "I'm Alpay, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
+    de: "Ich bin Mark, ein Fullstack-Entwickler mit dem Ziel, meine Karriere voranzutreiben und an inspirierenden Projekten teilzunehmen. Hier präsentiere ich meine Arbeiten und meine Leidenschaft für die Webentwicklung. Lassen Sie uns gemeinsam digitale Lösungen gestalten und die Zukunft formen!",
+    en: "I'm Mark, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
   },
   buttons: [
     {
@@ -90,7 +96,7 @@ export const projectsData = [
     ],
     image: tastyMockup,
     deploymenturl: "https://delightful-cheesecake-9b19f0.netlify.app/",
-    githuburl: "https://github.com/AlpayC/Frontend_Abschlussprojekt_Tasty",
+    githuburl: "https://github.com/edgedev242/Tasty.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -123,7 +129,7 @@ export const projectsData = [
     image: silentmoonMockup,
     deploymenturl: "https://silentmoon-grpw.onrender.com/",
     githuburl:
-      "https://github.com/AlpayC/Fullstack_Abschlussprojekt_SilentMoon",
+      "https://github.com/edgedev242/SilentMoon.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -155,7 +161,7 @@ export const projectsData = [
     ],
     image: instorMockup,
     deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
-    githuburl: "https://github.com/AlpayC/Furniture_MERN",
+    githuburl: "https://github.com/edgedev242/Instor.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -203,6 +209,24 @@ export const skillsDataWeb = [
         color: "#007ACC",
       },
       {
+        title: "C#",
+        hash: "#C#",
+        icon: csharp,
+        color: "#CC6699",
+      },
+      {
+        title: "PHP",
+        hash: "#PHP",
+        icon: php,
+        color: "#007ACC",
+      },
+      {
+        title: "Python",
+        hash: "#Python",
+        icon: python,
+        color: "#007ACC",
+      },
+      {
         title: "React",
         hash: "#React",
         icon: reacticon,
@@ -213,6 +237,12 @@ export const skillsDataWeb = [
         hash: "#Next.js",
         icon: [nextjsicon, nextjsiconwhite],
         color: ["#000000", "#FFFFFF"],
+      },
+      {
+        title: ".NET",
+        hash: "#.NET",
+        icon: dotnet,
+        color: "#61DAFB",
       },
       {
         title: "Node.js",
@@ -233,6 +263,12 @@ export const skillsDataWeb = [
         color: "#449C45",
       },
       {
+        title: "MySQL",
+        hash: "#MySQL",
+        icon: mysql,
+        color: "#007ACC",
+      },
+      {
         title: "Vue.js",
         hash: "#Vue.js",
         icon: vuejsicon,
@@ -249,6 +285,12 @@ export const skillsDataWeb = [
         hash: "#SASS/SCSS",
         icon: sassscssicon,
         color: "#CC6699",
+      },
+      {
+        title: "Docker",
+        hash: "#Docker",
+        icon: docker,
+        color: "#007ACC",
       },
     ],
   },
@@ -310,23 +352,23 @@ export const FooterLinks = [
 ] as const;
 
 export const sideBarRightMail = {
-  link: "mailto:myemail@com",
-  text: "myemail@com",
+  link: "mailto:mark.garrasi.fl@gmail.com",
+  text: "mark.garrasi.fl@gmail.com",
 } as const;
 
 export const sideBarLeftSocials = [
   {
-    link: "https://www.linkedin.com/in/alpay/",
+    link: "https://www.linkedin.com/in/mark-garrasi-4a8380381/",
     icon: FiLinkedin,
     altimgname: "linkedin",
   },
   {
-    link: "https://github.com/AlpayC",
+    link: "https://github.com/edgedev242",
     icon: FiGithub,
     altimgname: "github",
   },
   {
-    link: "mailto:myemail@com",
+    link: "mailto:mark.garrasi.fl@gmail.com",
     icon: FiMail,
     altimgname: "mail",
   },
